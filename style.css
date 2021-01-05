@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+section{
+    height: 500px;
+    margin-bottom: 150px;
+    margin-left: 30px;
+}
+section.intro{
+    margin-top: 50px;
+}
+.half-width{
+    width: 40%;
+    padding-left: 2%;
+    margin-left: 5%;
+    float: left;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-size: 80px;
+}
+h1 span{
+    color: tomato;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    margin-top: -50px;
+    margin-bottom: 45px;
+    color: #3E3E3E;
+}
+.btn{
+    text-decoration: none;
+    padding: 15px 40px;
+    background: linear-gradient(180deg, lightsalmon, tomato);
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 13px;
+}
+img{
+    width: 85%;
+}
+.intro-img{
+    margin-left: -40px;
+}
