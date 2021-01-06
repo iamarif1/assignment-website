@@ -4,7 +4,6 @@ body{
 section{
     height: 500px;
     margin-bottom: 150px;
-    margin-left: 30px;
 }
 section.intro{
     margin-top: 50px;
@@ -23,11 +22,25 @@ h1{
 h1 span{
     color: tomato;
 }
+.about-h1{
+    font-size: 50px;
+    margin-bottom: 70px;
+}
+.work-h1{
+    font-size: 50px;
+    text-align: center;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
 p{
     font-family: 'Roboto', sans-serif;
+    color: #3E3E3E;
+}
+p.description{
     margin-top: -50px;
     margin-bottom: 45px;
-    color: #3E3E3E;
 }
 .btn{
     text-decoration: none;
@@ -43,4 +56,89 @@ img{
 }
 .intro-img{
     margin-left: -40px;
+}
+section.about{
+    margin-top: -90px;
+}
+.latest-bg{
+    background-color: rgb(245, 245, 245);
+    height: 565px;
+}
+.latest-project{
+    margin: 0 10%;
+    margin-bottom: 150px;
+}
+.latest-project img{
+    width: 85%;
+    text-align: center;
+}
+.my-work{
+    width: 30%;
+    float: left;
+    box-shadow: 5px 7px 40px #cfcaca;
+    border-radius: 15px;
+    margin-left: 25px;
+    padding: 15px 0 0 15px;
+    height: 354px;
+}
+.testimonial{
+    text-align: center;
+    margin-bottom: -210px;
+}
+.client-say{
+    color: tomato;
+}
+.client-name{
+    margin-top: -40px;
+    font-family: 'Roboto', sans-serif;
+    color: dimgray;
+}
+.client-title{
+    color: dimgray;
+}
+.client-review-p{
+    color: dimgray;
+}
+.contact-div{
+    padding: 50px;
+    margin: 140px 100px;
+}
+.contact-h2{
+    font-size: 60px;
+    display: inline;
+    margin-left: 125px;
+    margin-right: 230px;
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+}
+.contact{
+    background-image: url("images/contact-bg.png");
+    margin: 50px;
+    padding: 0 50px;
+    margin-top: -315px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 850px;
+    overflow: hidden;
+}
+.connected{
+    text-align: center;
+    margin-top: -100px;
+}
+.connected-p{
+    font-size: 32px;
+    font-family: 'Bebas Neue', cursive;
+    color: dimgray;
+}
+#email{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.contact-icon{
+    text-align: center;
+}
+.contact-icon img {
+    width: 30px;
+    margin:10px;
 }
